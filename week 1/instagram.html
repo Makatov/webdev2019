@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <title>Facebook</title>
+
+<meta charset=»utf-8″ />
+
+<style class="cp-pen-styles">body {
+  margin: 0;
+  font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
+  line-height: 1.28;
+}
+
+#navwrapper {
+  width: 100%;
+  height: 100px;
+  background-color: #3b5998;
+}
+
+#navbar {
+  margin: 0 auto;
+  width:980px;
+  height:59px;
+}
+
+#contentwrapper {
+  width: 100%;
+  height: 606px;
+  background-color: #edf0f5;
+}
+
+#content {
+  margin: 0 auto;
+  width:980px;
+  padding-top:20px;
+}
+
+h1 {
+  font-family: tahoma,verdana,arial,sans-serif;
+  font-size: 38px;
+  letter-spacing:0.05px;
+  margin: 0;
+  color:#fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logowrapper {
+  display: block;
+  padding: 30px 0;
+}
+
+#button {
+  position:relative;
+  width:45px;
+  height:18px;
+  background-color: #5b72a9;
+  border: 1px solid #999;
+  border-color:#8b9dc3 #2f477a #29447e #1a356e;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  cursor:pointer;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+  color:#fff;
+}
+
+.tablewrapper {
+  float:right;
+  margin-top:15px;
+}
+
+.row1 {
+  
+  color:#fff;
+  font-size:11px;
+  width:164px;
+  cursor:pointer;
+}
+
+.inputtext {
+  border-color: #1d2a5b;
+  margin: 0;
+  width: 142px;
+  border: 1px solid #bdc7d8;
+  margin: 0;
+  padding: 3px;
+  background-color: #FAFFBD;
+}
+
+.row2 {
+  
+  color:#9daccb;
+  font-size:11px;
+  width:164px;
+  cursor:pointer;
+}
+
+#leftbod {
+  width:565px;
+  display:inline-block;
+}
+
+.connect {
+  width: 500px;
+height: 22px;
+padding: 18px 0 24px;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+color: #333;
+display: inline-block;
+}
+
+.leftbar {
+  
+  padding-bottom:10px;
+  margin-top:20px;
+}
+
+.main_img {
+  margin-right:20px;
+  width:500px;
+  
+}
+
+.rowtext {
+  font-size:16px;
+  font-weight:bold;
+  color:#333;
+}
+
+
+.fb1 {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.rowtext2 {
+  font-size:15px;
+  color:#666;
+  margin-left:10px;
+}
+
+#rightbod {
+  display:inline-block;
+  vertical-align:top;
+  width:399px;
+  height:200px;
+  float:right;
+}
+
+.signup {
+  font-size:36px;
+  -webkit-font-smoothing: antialiased;
+  font-weight:700;
+  margin-bottom:5px;
+}
+
+.bolder {
+  font-family: 'Open Sans',sans-serif;
+  text-rendering:optimizelegibility;
+  color:#0e385f;
+}
+
+.maintext {
+  font-family: 'Open Sans',sans-serif;
+  text-rendering:optimizelegibility;
+  color:#333;
+}
+
+.free {
+  font-size:19px;
+  margin-bottom:20px;
+}
+
+.formbox {
+  display: inline-block;
+  width:399px;
+}
+
+.inputbody {
+  display: inline-block;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: 1px solid #bdc7d8;
+-webkit-border-radius: 5px;
+  color:#333;
+  margin-bottom:10px;
+}
+
+::-webkit-input-placeholder {
+   color: #999;
+}
+
+::-moz-placeholder {
+   color: #999;  
+}
+
+:-ms-input-placeholder {  
+   color: #999;  
+}
+
+.in1 {
+  width:172px;
+}
+
+.in2 {
+  width:377px;
+}
+
+.fr {
+  float:right;
+}
+
+.fl {
+  float:left;
+}
+
+.bday {
+  font-size:19px;
+  color:#141823;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom:5px;
+}
+
+.selectbody {
+  display: inline-block;
+  height:30px;
+  font-size: 13px;
+  border: 1px solid #bdc7d8;
+  -webkit-border-radius: 5px;
+  color:#141823;
+ 
+}
+
+.why {
+  font-size: 11px;
+  color: #3b5998;
+  width:150px;
+  margin-left:10px;
+  cursor:pointer;
+}
+
+.h:hover {
+  text-decoration: underline;
+}
+
+.gender {
+  font-size: 18px;
+  color: #141823;
+  cursor: pointer;
+  padding: 0 10px 0 3px;
+  margin-right: 4px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.spanpad {
+  padding: 5px 0 5px 4px;
+  display: inline-block;
+}
+
+.mt1 {
+  margin-top:15px;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.agree {
+  font-size: 11px;
+  color: #777;
+  width:316px;
+  margin: 11px 0 11px ;
+}
+
+.link {
+  color:#3b5998;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.signbut {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color:#fff;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  background: -webkit-linear-gradient(#67ae55, #578843);
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-top: 10px;
+margin-bottom: 10px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  cursor:pointer;
+}
+
+.signbut:hover {
+  background: -webkit-linear-gradient(#79bc64, #578843);
+}
+
+.create {
+  border-top: 1px solid #a0a9c0;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+</style>
+</head>
+
+<body>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<div id="navwrapper">
+  <div id="navbar"> <table class="tablewrapper">
+    <tr>
+      <td class="row1">Электронный адрес или номер телефона </td>
+      <td class="row1">Пароль</td>
+    </tr>
+    <tr>
+      <td><input type="text" class="inputtext">
+      </td>
+      <td><input type="text" class="inputtext">
+      </td>
+      <td><div id="button">Вход</div></td>
+    </tr>
+    <tr>
+      <td>
+        
+      <td class="row2 h">Забыли аккаунт?</td>
+  </table>
+    
+    <h1 class="logowrapper">facebook</h1>
+   
+  </div>
+  </div>
+
+  <div id="contentwrapper">
+    <div id="content">
+      
+      <div id="leftbod">
+        
+        <div class="connect bolder">
+          Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.
+</div>
+        
+        <div class="leftbar">
+          <img src="images/map.png" alt="" class="main_img fb1"/>
+          
+        </div> 
+        
+       
+            
+      </div>
+       
+      <div id="rightbod">
+        <div class="signup maintext">Регистрация</div>
+        <div class="free maintext">Это бесплатно и всегда будет бесплатнo.</div>
+        
+        <div class="formbox">
+        <input type="text" class="inputbody in1" placeholder="Имя">
+        <input type="text" class="inputbody in1 fr" placeholder="Фамилия">
+        </div>
+        <div class="formbox">
+        <input type="text" class="inputbody in2" placeholder="Номер мобильного телефона или эл. адрес">
+        </div>
+       
+        <div class="formbox">
+        <input type="text" class="inputbody in2" placeholder="Новый пароль">
+        </div>
+        <div class="formbox">
+          <div class="bday">Дата рождения</div>
+        </div>
+        <div class="formbox">
+          <span data-type="selectors">
+            <span>
+                  <select title="Month" class="selectbody"><option value="0" selected="1">Месяц</option><option value="1">янв</option><option value="2">фев</option><option value="3">мар</option><option value="4">апр</option><option value="5">мая</option><option value="6">июн</option><option value="7">июл</option><option value="8">авг</option><option value="9">сен</option><option value="10">окт</option><option value="11">ноя</option><option value="12">дек</option></select>
+              <select title="Day" class="selectbody fl"><option value="0" selected="1">День</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+
+              <select title="Year" class="selectbody fl"><option value="0" selected="1">Год</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option></select>
+            </span>
+            <div class="fb1 why h">Зачем указывать дату рождения?</div>
+
+          </div>
+            <div class="formbox mt1">
+              <span data-type="radio" class="spanpad">
+                <input type="radio" id="fem" class="m0">
+                <label for="fem" class="gender">Женщина
+                </label>
+                <input type="radio" id="male" class="m0">
+                <label for="male" class="gender">Мужчина
+                </label>
+              </span>
+            </div>
+            <div class="formbox">
+              <div class="agree">
+                Нажимая кнопку Регистрация, вы принимаете <div class="link">Условия</div>, <div class="link">Политику использования данных </div> и <div class="link">Политику в отношении файлов cookie</div>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
+              </div>  
+            </div>
+            <div class="formbox">
+              <button type="submit" class="signbut bolder">Регистрация</button>
+            </div>
+          <div class="formbox">
+            <div class="create"><div class="link h">Создать Страницу</div> знаменитости, музыкальной группы или компании.</div>
+          </div>
+      </div>
+     </div>
+    </div>
+  
+  
+
+</body></html>
